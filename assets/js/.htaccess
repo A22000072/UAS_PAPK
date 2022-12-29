@@ -1,0 +1,6 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone Asia/Jakarta
+<IfModule mod_headers.c>
+Header add Access-Control-Allow-Origin "*"
+</IfModule>
